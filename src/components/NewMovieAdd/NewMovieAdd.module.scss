@@ -1,0 +1,33 @@
+.form_input {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  input {
+    padding: 10px 20px;
+    width: 180px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    border: 3px solid white;
+  }
+  input::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+  ::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: red;
+  }
+
+  button {
+    padding: 10px 20px;
+    width: 120px;
+    height: 40px;
+  }
+}
